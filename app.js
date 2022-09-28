@@ -2,7 +2,7 @@ const express = require("express");
 const bodyparser = require('body-parser')
 const app = express();
 const cors = require('cors')
-const stripe = require("stripe")("sk_test_51LEegGBKQ6NhLAIhrSfePjgBMFqnaNUaUG25EHOcDvVeMZvLSvgbwcOubrm0EmhkWx1AEDB8faBDUJJDGKzYGanJ00oJmjoLV7"); //private key
+const stripe = require("stripe")("{{TEST_SECRET_KEY}}"); //private key
 
 const portNumber = 3000;
 
